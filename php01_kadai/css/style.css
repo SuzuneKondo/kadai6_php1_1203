@@ -1,0 +1,69 @@
+/* 繋がったかくにん済 */
+
+html {
+    background-color: #FAFAFA;
+    font-size: 62.5%;/* 16px*62.5%=10px */
+    font: optional;
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+}
+
+header{
+    padding: 50px;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin:10px auto 50px auto;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 20px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #9eb4f174;
+    border-radius: 2px;
+}
+.box-flame{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-name{
+    padding: 10px 20px 10px 5px;
+    text-align: left;
+}
+
+/* read.php */
+.result-flame{
+    border:3px #9eb4f174 solid;
+    border-collapse: collapse;
+}
+
+.ttt{
+    padding: 20px;
+    border:0.8px #9eb4f174 solid;
+}
+
+.result-box-flame{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.result-data{
+    padding: 5px;
+    border:0.8px #9eb4f174 solid;
+}
