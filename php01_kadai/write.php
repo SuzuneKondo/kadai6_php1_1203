@@ -8,7 +8,6 @@ $address = $_POST['address'];
 $mail = $_POST['mail'];
 $phone = $_POST['phone'];
 
-$time = date('Y-m-d H:i:s');
 // ファイルに書き込み
 $file = fopen('data/data.txt', 'a');
 fwrite($file, $time . '/' . $name . '/' . $kana . '/' .  $sex . '/' .  $age . '/' .  $address . '/' .  $mail . '/' .  $phone . "\n");
@@ -35,7 +34,7 @@ fclose($file);
 
     <ul>
         <li><a href="read.php">確認する</a></li>
-        <li><a href="input.php">戻る</a></li>
+        <li><a href="post.php">戻る</a></li>
     </ul>
 </body>
 

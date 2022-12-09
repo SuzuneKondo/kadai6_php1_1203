@@ -1,11 +1,11 @@
 /* 繋がったかくにん済 */
 
 html {
-    background-color: #FAFAFA;
+    background-color: #ecf6ff;
     font-size: 62.5%;/* 16px*62.5%=10px */
     font: optional;
     font-family: 'Open Sans', sans-serif;
-    color: #222222;
+    color: #00304f;
 }
 
 header{
@@ -31,31 +31,44 @@ h1{
     margin: 0 auto 20px;
 }
 
-input{
+#txt-box{
     width: 200px;
     height: 30px;
-    border: 1px solid #9eb4f174;
+    border: 1px solid #5d738f;
     border-radius: 2px;
 }
+
+select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #5d738f;
+    border-radius: 2px;
+}
+
+#radio{
+    margin: 3px 10px 5px 10px;
+}
+
 .box-flame{
     max-width: 800px;
     margin: 0 auto;
 }
 
 .form-name{
-    padding: 10px 20px 10px 5px;
+    padding: 10px 20px 10px 8px;
     text-align: left;
 }
 
 /* read.php */
 .result-flame{
-    border:3px #9eb4f174 solid;
+    border:3px #5d738f solid;
     border-collapse: collapse;
 }
 
 .ttt{
     padding: 20px;
-    border:0.8px #9eb4f174 solid;
+    border:0.8px #5d738f solid;
+    background-color: #ffc05b;
 }
 
 .result-box-flame{
@@ -65,5 +78,40 @@ input{
 
 .result-data{
     padding: 5px;
-    border:0.8px #9eb4f174 solid;
+    border:0.8px #5d738f solid;
+}
+
+.btn-submit {
+    width:100px;
+    display:inline-block; /*送信とリセットを横並び*/
+    font-size:1.6rem;
+    text-align:center;
+    padding:10px;
+    background:#ffc05b;
+    color: #00304f;
+    line-height:1em;
+    border:none;
+    border-radius: 5px;
+}
+
+.btn-submit:hover {/*マウスを合わせた時の処理（hover）*/
+    color:#dad0c4;
+    background: #dc3125;
+}
+
+.btn-reset {
+    width:100px;
+    display:inline-block; /*送信とリセットを横並び*/
+    font-size:1.6rem;
+    text-align:center;
+    padding:10px;
+    background:#ffc05b;
+    color: #00304f;
+    line-height:1em;
+    border:none;
+    border-radius: 5px;
+}
+.btn-reset:hover {/*マウスを合わせた時の処理（hover）*/
+    color:#dad0c4;
+    background: #dc3125;
 }
